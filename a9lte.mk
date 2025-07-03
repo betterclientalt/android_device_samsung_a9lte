@@ -21,7 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Inherit your device-specific configuration
-$(call inherit-product, device/samsung/a9lte/device.mk)
+$(call inherit-product, $(LOCAL_DIR)/device.mk)
 
 # Device identity
 PRODUCT_DEVICE := a9lte
