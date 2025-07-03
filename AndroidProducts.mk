@@ -17,7 +17,7 @@
 # PRODUCT_MAKEFILES := \
 # 	$(LOCAL_DIR)/omni_a9y18qlte.mk
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_a9lte.mk
+    $(LOCAL_DIR)/a9lte.mk
 
 COMMON_LUNCH_CHOICES := \
     lineage_a9lte-userdebug \
